@@ -747,6 +747,7 @@ and (max-width : 559px)	{
 	.templatemo_footer div.col-sm-12{ float: left; margin-top: 10px; width: 100%; }
 
  }
+.page {margin-top: 0px}
 .content { display: block; height: auto;}
 .homepage	{ display: block; }
 .leftalign	{ float: left; }
