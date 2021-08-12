@@ -552,7 +552,7 @@ a.menu-toggle-btn {
 	font-weight: 600;
 	margin-top: 10px;
 }
-.templatemo_contactmap	{ width: 332px; height: 388px; float: left; }
+.templatemo_contactmap	{position: relative; width: 332px; height: 388px; float: left; }
 .templatemo_contactmap img { position: absolute; width: 332px; height: 388px; top: 0px; left: 15px; }
 #templatemo_map {
     width: 100%;
