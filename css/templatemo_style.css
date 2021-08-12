@@ -430,6 +430,8 @@ a.menu-toggle-btn {
   width: 100%;
 }
 .gallery-item .overlay {
+	color: #fff;
+	text-align: center;
   position: absolute;
   top: 0;
   left: 0;
@@ -456,11 +458,20 @@ a.menu-toggle-btn {
   text-align: center;
   line-height: 32px;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   margin-top: -16px;
   margin-left: -16px;
 }
+.gallery-item .overlay div {
+	position: absolute;
+	text-align: center;
+	color: #fff;
+  top: 50%;
+  left: 10%;
+	width: 75%;
+}
+
 .templatemo_gallerygap { margin-bottom: 13%; }
 .templatemo_gallerygap img{ margin-top: 30px; }
 .templatemo_gallerygap span.fa	{ font-size: 22px; margin-bottom: 15px; }
