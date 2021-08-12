@@ -3,7 +3,7 @@
 jQuery(document).ready(function($){
 
 	/************** Menu Content Opening *********************/
-	$(".main_menu a, .responsive_menu a").click(function(){
+	/*$(".main_menu a, .responsive_menu a").click(function(){
 		var id =  $(this).attr('class');
 		id = id.split('-');
 		$("#menu-container .content").hide();
@@ -54,12 +54,12 @@ jQuery(document).ready(function($){
 		$(".main_menu a.templatemo_page2, .responsive_menu a.templatemo_page2").removeClass('active');
 		$(".main_menu a.templatemo_page3, .responsive_menu a.templatemo_page3").removeClass('active');
 		$(".main_menu a.templatemo_home, .responsive_menu a.templatemo_home").removeClass('active');
-		
-		loadScript();
+
+		initialize();
 		return false;
 	});
 
-
+*/
 
 	/************** Gallery Hover Effect *********************/
 	$(".overlay").hide();
@@ -84,26 +84,12 @@ jQuery(document).ready(function($){
 	  $(".responsive_menu").stop(true,true).slideToggle();
 	  return false;
 	});
- 
+
     $(".responsive_menu a").click(function(){
 		$('.responsive_menu').hide();
 	});
 
 });
 
-
-function loadScript() {
-  var script = document.createElement('script');
-  script.type = 'text/javascript';
-  script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' +
-      'callback=initialize';
-  document.body.appendChild(script);
-}
-
 function initialize() {
-    var mapOptions = {
-      zoom: 12,
-      center: new google.maps.LatLng(40.7823234,-73.9654161)
-    };
-    var map = new google.maps.Map(document.getElementById('templatemo_map'),  mapOptions);
 }
